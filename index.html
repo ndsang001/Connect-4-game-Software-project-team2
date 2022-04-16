@@ -1,10 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> 
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="0;URL=./html/home.html"> 
-    <title>Index</title>
+	<meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+	<script src="js/connect4.js"></script>
+    <script src="js/pc.js"></script>
+    <script src="js/main.js"></script>
+    <title>Connect 4</title>
+    
 </head>
+<body>
+    
+    <p><img src="connect4.png" alt=""></p>
+    <p><span class="modify">you can find the rules of this game in : <span>   <strong><a href="https://en.wikipedia.org/wiki/Connect_Four" title="site de l'eilco" target="_">  wikipedia page</a>
+    <br>
+    <br>
+	<button><a href="html/LoginPage.html">Login</a></button>
+	<button><a href="html/RegisterPage.html">Register</a></button>
+    <button id="2players" >Mode : two players</button>
+     <button id="vscomputer" >Mode : vs computer </button>
+	 <div id="game"></div>
+     <br>
+     <button id="restart" style="visibility:hidden;">Restart</button>
+     
+</body>
 </html>
+
