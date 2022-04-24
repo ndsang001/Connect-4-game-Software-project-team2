@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Fira sans', sans-serif;
+}
+
+header {
+    margin: 50px 0 30px 0;
+    text-align: center;
+}
+
+section {
+    text-align: center;
+    position: relative;
+}
+
+.game-container {
+    position: absolute;
+    top: 4rem;
+    left: 50%;
+    transform: translate(-50%);
+    width: 650px;
+    height: auto;
+    background: rgb(61, 138, 254);
+    border: 1px solid black;
+    box-shadow: 5px, 5px rgba(0, 0, 0, 0.441);
+    padding: -0.5rem;
+}
+
+.cell {
+    width: 90px;
+    height: 90px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}

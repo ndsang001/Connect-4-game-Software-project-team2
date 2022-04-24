@@ -9,10 +9,10 @@
 // });
 
 
-$('#game').ready(function(){
+$('#game').ready(function() {
     // const connect4 = new Connect4('#game');
 
-    $('#2players').on('click', function(){
+    $('#2players').on('click', function() {
 
         const connect4 = new Connect4('#game');
 
@@ -20,14 +20,18 @@ $('#game').ready(function(){
         $('#vscomputer').css('visibility', 'hidden');
 
         {
-            $('#restart').on('click', function(){
+            $('#restart').on('click', function() {
                 $('#game').empty();
                 connect4.drawGame();
                 $('#restart').css('visibility', 'hidden');
             })
         }
     })
-    // $('#vscomputer').on('click', function(){
+
+    $('#vscomputer').on('click', function() {
+            window.location.href = './html/pcModePage.html'
+        })
+        // $('#vscomputer').on('click', function(){
 
     //     const connect4 = new Pc('#game');
 
