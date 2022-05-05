@@ -4,9 +4,14 @@
     font-family: 'Fira sans', sans-serif;
 }
 
-header {
-    margin: 50px 0 30px 0;
-    text-align: center;
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(../Ressources/background.webp);
+	background-size: cover;
+	background-position: absolute;
+	font-family: sans-serif;
+	text-align : center;
 }
 
 section {
@@ -14,22 +19,43 @@ section {
     position: relative;
 }
 
+button
+{
+	border: none;
+	outline: none;
+	height: 42px;
+	background: #21a1ff;
+	color: #fff;
+	font-size: 18px;
+	margin-top:10px;
+	margin-bottom:10px;
+	border-radius: 10px;
+}
+
+button:hover
+{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
+
 .game-container {
     position: absolute;
     top: 4rem;
     left: 50%;
     transform: translate(-50%);
-    width: 650px;
+    width: auto;
     height: auto;
-    background: rgb(61, 138, 254);
+    background: #21a1ff;
     border: 1px solid black;
     box-shadow: 5px, 5px rgba(0, 0, 0, 0.441);
     padding: -0.5rem;
+    border-radius: 15px;
 }
 
 .cell {
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
     background: white;
     border: 1px solid black;
     border-radius: 50%;

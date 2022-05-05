@@ -5,12 +5,18 @@ body{
 	background-size: cover;
 	background-position: center;
 	font-family: sans-serif;
+	text-align : center;
+}
+
+img{
+	width: auto;
+	height: 12%;
 }
 
 .loginbox{
 	width: 320px;
-	height: 700px;
-	background: #4682B4;
+	height: 620px;
+	background: #21a1ff;
 	color: #fff;
 	top: 50%;
 	left: 50%;
@@ -19,6 +25,7 @@ body{
 	transform: translate(-50%, -50%);
 	box-sizing: border-box;
 	padding: 70px 30px;
+	border-radius: 20px;
 }
 
 h1{
@@ -67,7 +74,7 @@ h1{
 	text-decoration: none;
 	font-size: 12px;
 	line-height: 20px;
-	color: darkgrey;
+	color: lightgrey;
 }
 
 .loginbox a:hover
